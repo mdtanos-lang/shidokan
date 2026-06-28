@@ -1,0 +1,27 @@
+*{margin:0;padding:0;box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{background:#0c0a09;color:#f5f5f4}
+    @keyframes floatUp{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:translateY(0)}}
+    @keyframes slowZoom{from{transform:scale(1.08)}to{transform:scale(1)}}
+    @media(max-width:760px){
+      .r-header{padding:12px 16px !important}
+      .r-nav{gap:14px !important}
+      .r-nav a{font-size:12px !important;letter-spacing:0.05em !important}
+      .r-nav a.r-cta{padding:9px 14px !important}
+      .r-navhide{display:none !important}
+      .r-hero-sec{padding:100px 20px 0 !important;min-height:auto !important}
+      .r-hero-grid{grid-template-columns:1fr !important;row-gap:22px !important;column-gap:0 !important}
+      .r-hero-grid img{width:118px !important;height:118px !important}
+      .r-hero-grid h1{font-size:clamp(46px,13vw,64px) !important;line-height:0.98 !important}
+      .r-hero-grid p{font-size:17px !important}
+      .r-strip{max-width:none !important;height:96px !important;margin-top:44px !important}
+      .r-dojokun{grid-template-columns:1fr 1fr !important}
+      .r-dojokun > div{border-right:none !important;border-bottom:1px solid #292524 !important}
+      .r-twocol{grid-template-columns:1fr !important}
+      .r-pad{padding:54px 22px !important}
+      .r-imgcol{min-height:320px !important}
+      .r-turmas{grid-template-columns:1fr !important}
+      .r-galeria{grid-template-columns:1fr 1fr !important;grid-auto-rows:150px !important}
+      .r-secpad{padding:60px 20px !important}
+      .r-cta-pad{padding:80px 20px !important}
+    }
